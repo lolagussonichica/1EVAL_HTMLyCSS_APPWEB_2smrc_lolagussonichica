@@ -1,0 +1,17 @@
+/*selector universal*/
+*{
+    background-color: rgb(210, 143, 255);
+}
+/*selector de etiquta*/
+h1{
+    background-color: rgb(86, 193, 255);
+}
+/*selector de clase*/
+p.fondorosa{
+    background-color: rgb(255, 147, 213);
+}
+/*selector id*/
+p#fondorojounico{
+    background-color: rgb(255, 27, 27);
+
+}

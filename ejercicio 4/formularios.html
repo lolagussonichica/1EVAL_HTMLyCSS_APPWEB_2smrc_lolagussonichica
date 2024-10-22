@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>formularios</h1>
+    <form action="alert(pepe)">
+      <label for="nom">nombre <input type="text"  required id="nom"/></label>
+      <label for="apellido">apellido<input type="text" id="apellido" /></label>
+      <label for="web">sitio web<input type="url" id="web"/></label>
+      <label for="email">email<input type="email" id="email" /></label>
+      <label for="contraseña">contraseña<input type="password" id="contraseña" /></label>
+      <label for="edad">edad<input type="number" min="18" max="100" id="edad"/></label>
+        <label for="h"><input type="radio" name="genero" id="h" value="h">hombre
+            <label for="m"><input type="radio" name="genero" id="m" value="m">mujer
+                <label for="o"><input type="radio" name="genero" id="o" value="o">otros
+        </label>
+        <label for="">
+            <textarea name="" id="" rows="4" cols="12" >mas iformacion </textarea></label>
+            <label for=""> <select name="" id=""><p>mes de nacimiento</p>
+                <option value="0" selected disabled >selecione mes</option>
+              <option value="1">enero</option>
+              <option value="2">febrero</option>
+              <option value="3">marzo</option>
+              <option value="4">abril</option>
+              <option value="5">mayo</option>
+              <option value="6">junio</option>
+              <option value="7">julio</option>
+              <option value="8">agosto</option>
+              <option value="9">septiembre</option>
+              <option value="10">octubre</option>
+              <option value="11">noviembre</option>
+              <option value="12">diciembre</option>
+            </select></label>
+            <label for="">
+                <p>Pais de nacimiento</p>
+                <select name="" id="">
+                    <optgroup label="Europa">
+                        <option value="">España</option>
+                        <option value="">Portugal</option>
+                        <option value="">Italia</option>
+                    </optgroup>
+                    <optgroup label="America">
+                       <option value="">Colombia</option>
+                       <option value="">venezuela</option>
+                       <option value="">brasil</option>
+                    </optgroup>
+                </select>
+            </label>
+            <p>color favorito</p>
+            <label for="">
+                <input type="color"name="color elegido">
+            </label>
+            <p>valoracion del formulario</p>
+            <label for="">
+                <input type="range" min="1" max="10" step="1">
+            </label>
+            <p>certificacion de ingles (A1, A2, B1, B2, C1, C2)</p>
+           <label for="">
+            <input type="range"name="nivel de ingles" id="" list="rango ingles">
+            <datalist id="rango ingles">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+            </datalist>
+           </label>
+
+        <input type="submit"/>
+      <input type="reset" value="resetear" />
+    </form>
+  </body>
+</html>
