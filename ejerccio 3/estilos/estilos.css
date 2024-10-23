@@ -1,4 +1,8 @@
-h1#texto{
-    color: blueviolet;
-background-color: antiquewhite;
+
+table{
+    margin-left:auto;
+    margin-right: auto;
+}
+td.recreo{
+    background-color: rgb(157, 209, 255);
 }
