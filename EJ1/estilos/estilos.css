@@ -1,3 +1,13 @@
 body {
     text-align: justify;
 }
+p {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image : url(./img/WhatsApp-Image-2024-07-09-at-22.12.44.webp) ;
+}
+p {
+    color: rgb(115, 255, 133);
+}
+
