@@ -1,0 +1,15 @@
+ul.cuadrado{
+    list-style-type: square;
+}
+
+li.cuadrado{
+    list-style-type: square;
+}
+
+li.circulo{
+    list-style-type: circle;
+}
+
+ul.circulo{
+    list-style-type: circle;
+}

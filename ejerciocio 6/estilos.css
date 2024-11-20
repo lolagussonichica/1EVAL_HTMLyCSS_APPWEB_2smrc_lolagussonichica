@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(190, 183, 183)
+}
+
+   
+figure#li1{
+    border: 2px black solid;
+    background-color: white;
+    margin-right: 72%;
+ 
+    padding-top: 15px;
+    padding-bottom: 17px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+figure#li2{
+    border: 2px black solid;
+    background-color: white;
+    margin-right: 72%;
+ 
+    padding-top: 15px;
+    padding-bottom: 17px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+figure#li3{
+    border: 2px black solid;
+    background-color: white;
+    margin-right: 72%;
+ 
+    padding-top: 15px;
+    padding-bottom: 17px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+figure#li4{
+    border: 2px black solid;
+    background-color: white;
+    margin-right: 72%;
+ 
+    padding-top: 15px;
+    padding-bottom: 17px;
+  text-align: center;
+  border-radius: 10px;
+}
+div.container{
+    background-color: rgb(162, 255, 143);
+    border: solid rgb(190, 183, 183) 2px;
+    margin: 0% auto;
+    width: 80%;
+}
+    
+
+
+
